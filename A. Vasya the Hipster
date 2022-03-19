@@ -1,0 +1,18 @@
+#include <bits/stdc++.h>
+
+using namespace std;
+
+
+
+
+int main() {
+    int a,b,m,d;
+    cin>>a>>b;
+    d=min(a,b);
+    m=(a+b-2*d)/2;
+    cout<<d<<" "<<m<<endl;
+
+
+    return 0;
+}
+
